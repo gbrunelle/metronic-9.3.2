@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
-import { ScreenLoader } from '@/components/common/screen-loader';
+import { ScreenLoader } from '@/components/screen-loader';
 import { useAuth } from './context/auth-context';
 
 /**
